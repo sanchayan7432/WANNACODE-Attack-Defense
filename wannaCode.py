@@ -13,7 +13,7 @@ import os
 import google.generativeai as genai
 
 # Initialize Gemini client with your Gemini API key
-gemini_api_key = "AIzaSyDDKvpe02p6R-fYL0lCUDNBLWJRiBR4B78"
+gemini_api_key = "..."
 genai.configure(api_key=gemini_api_key)
 
 # Streamlit page configuration
